@@ -1,0 +1,7 @@
+{
+  "decision_id": "bind-demo-001",
+  "model_id": "example-model-v1",
+  "risk_score": "0.04",
+  "required_controls": ["human_review", "trace_id"],
+  "observed_controls": ["trace_id", "human_review"]
+}
