@@ -1,5 +1,66 @@
 # Hydra Governance Systems — ROMEO-HYDRA Evidence Surface
 
+<!-- BIND_EXECUTIVE_SURFACE_V1 -->
+
+## 30-second corporate review
+
+### The problem
+
+High-stakes automated decisions can execute without proving that
+required governance controls were satisfied.
+
+### The control
+
+ROMEO-HYDRA inserts an explicit governance gate between a decision
+engine and execution.
+
+~~~text
+AI / Decision Engine
+        |
+        v
+Governance Contract
+        |
+        v
+Policy + Evidence Gate
+        |
+   +----+----+
+   |         |
+ ALLOW     BLOCK
+   |         |
+   +----+----+
+        |
+        v
+Auditable Receipt
+~~~
+
+### The invariant
+
+> A decision that cannot satisfy its declared governance conditions
+> must not silently proceed.
+
+### Public verification
+
+This repository exposes a deliberately bounded verification surface:
+
+- fail-closed reference implementation;
+- reproducible unit tests;
+- SHA-256 integrity manifest;
+- automated GitHub Actions verification;
+- explicit separation between current, historical and experimental claims.
+
+### Corporate evaluation
+
+This repository is a public evidence surface, not the complete
+ROMEO-HYDRA production source tree.
+
+The private master repository remains private by design.
+
+Deeper technical due diligence can be performed through a narrowly
+scoped private review environment or a supervised technical session.
+
+---
+
+
 **Purpose:** a public, review-oriented surface for corporate and technical evaluators. It exposes the product logic, validation posture, threat model, and an executable reference demonstration **without publishing the private ROMEO-HYDRA master repository**.
 
 > This repository is an evidence and evaluation surface. It is **not** the full ROMEO-HYDRA source tree and the demonstration code is **not** the private production core.
