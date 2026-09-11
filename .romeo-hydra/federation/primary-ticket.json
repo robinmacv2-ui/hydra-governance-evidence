@@ -1,0 +1,18 @@
+{
+  "capabilities": {
+    "MAY_EXECUTE_REMOTE": false,
+    "MAY_READ_METADATA": false,
+    "MAY_REQUEST": false,
+    "MAY_RESPOND": false,
+    "MAY_SPEAK": false,
+    "MAY_WRITE_REMOTE": false
+  },
+  "decision": "REGISTERED_NOT_AUTHORIZED",
+  "repository": "robinmacv2-ui/hydra-governance-evidence",
+  "role": "MEMBER_NODE",
+  "schema": "rh.federation.primary-ticket.v1",
+  "source_pass0_sha256": "86b21d349fae81c6fe4c0a529c244341bf746ef2521b0725907ea6920249d4d5",
+  "source_pass0_ticket": "RH-P0-e9864740aa3fc747",
+  "ticket_id": "RH-FED-c16f4939765f6d3b",
+  "traffic_state": "FROZEN"
+}
