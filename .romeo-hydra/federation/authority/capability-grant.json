@@ -1,0 +1,37 @@
+{
+  "authority_chain": {
+    "federation_director": "robinmacv2-ui/romeo-hydra-master-repository-hub",
+    "grant_signer_key_sha256": "ef0f668eb342596ee5f3bcdbf228de737459a617866a424063c09dcaa57d54da",
+    "grantor": "robinmacv2-ui/romeo-hydra-border"
+  },
+  "authority_epoch": 1,
+  "capability_digest": "bdef65c659ce4a11fcf69a74b3470c02ed1d578df95068d0b526199cbcbb39e9",
+  "default_policy": "DENY",
+  "issued_at": "2026-09-11T18:15:39.542368+00:00",
+  "operational_role": "EVIDENCE_NODE",
+  "protocol": "RH-FAP/0.1",
+  "restrictions": {
+    "border_bypass": false,
+    "remote_execution": false,
+    "remote_write": false,
+    "self_grant": false
+  },
+  "routes": [
+    {
+      "actions": [
+        "PUBLISH_EVIDENCE"
+      ],
+      "message_types": [
+        "EVIDENCE_RESPONSE"
+      ],
+      "peer": "robinmacv2-ui/romeo-hydra-core"
+    }
+  ],
+  "schema": "rh.federation.capability-grant.v1",
+  "signature": {
+    "algorithm": "Ed25519",
+    "signature_b64": "7Tp1uLVG3yNJBKOS8L9JPDywLpQWtlFKO7lk/cPZIPgsOLiUZSXoWjGJr265f1nqemvPsAuoLMq1Rt3crEBDAw=="
+  },
+  "state": "PREAUTHORIZED_FROZEN",
+  "subject": "robinmacv2-ui/hydra-governance-evidence"
+}
