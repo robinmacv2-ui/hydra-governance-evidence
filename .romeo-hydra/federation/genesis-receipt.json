@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-11T17:40:07.098824+00:00",
+  "decision": "REGISTERED_NOT_AUTHORIZED",
+  "event": "FEDERATION_BOOTSTRAP_REGISTERED",
+  "previous_receipt_hash": "GENESIS",
+  "receipt_hash": "ad4493cf9dac7cf87b1b7d80542dc34ee5f36c1fc825759913d69a5da4ca4aa7",
+  "repository": "robinmacv2-ui/hydra-governance-evidence",
+  "role": "MEMBER_NODE",
+  "schema": "rh.federation.genesis-receipt.v1",
+  "traffic_state": "FROZEN"
+}
