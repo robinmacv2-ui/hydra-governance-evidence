@@ -1,0 +1,10 @@
+{
+  "directed_by": "robinmacv2-ui/romeo-hydra-master-repository-hub",
+  "governed_by": "robinmacv2-ui/romeo-hydra-border",
+  "issued_at": "2026-09-11T17:40:07.098824+00:00",
+  "repository": "robinmacv2-ui/hydra-governance-evidence",
+  "role": "MEMBER_NODE",
+  "schema": "rh.federation.badge.v1",
+  "seat_status": "REGISTERED",
+  "traffic_state": "FROZEN"
+}
