@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "badge.json": "82e8c5ea6ad90a600ee17482e7a7a0a1f0928e2e040f4d2870136fabc14a2f89",
+    "genesis-receipt.json": "984a5da5f84d205c381633ffe1af6a21dfe9454cec9176935f44973a9c14376d",
+    "primary-ticket.json": "a7b420444e559b12a2f78f606c0af477109307845257cfbd5ea5b9eff71ceb85"
+  },
+  "attestation": "HTAL-FED/0.1",
+  "canonicalization": "RH-CANON-JSON/0.1",
+  "decision": "REGISTERED_NOT_AUTHORIZED",
+  "event_digest": "d89d8ffd49759860357c80456866cf484efa797e5b6daee47cb0e958b5c0c188",
+  "issued_at": "2026-09-11T18:00:13.667070+00:00",
+  "previous_receipt_hash": "ad4493cf9dac7cf87b1b7d80542dc34ee5f36c1fc825759913d69a5da4ca4aa7",
+  "protocol": "RH-FVP/0.1",
+  "repository": "robinmacv2-ui/hydra-governance-evidence",
+  "role": "MEMBER_NODE",
+  "schema": "rh.htal.federation-genesis-seal.v1",
+  "signature_b64": "FcNEleGCNJahLjuRcGMkzJiDcy7KbKGBpHXeSJmhrfYZnK1nrZu3qLh9ZTAlKdpRova0tzLqw1kw6h57h4h5Bw==",
+  "signer": {
+    "algorithm": "Ed25519",
+    "public_key_sha256": "b7d8b8ffca5a78a3b3f620bb2f2e7d274ec5c54679d3f6fb64f7c0aeeb303dd0"
+  },
+  "topology_commitment": "c27f84c6b938d6d12ef002b65be27ffdfccefd33e50624732112754d9bacce26",
+  "traffic_state": "FROZEN",
+  "transcript": [
+    {
+      "artifact": "badge.json",
+      "artifact_sha256": "82e8c5ea6ad90a600ee17482e7a7a0a1f0928e2e040f4d2870136fabc14a2f89",
+      "operation": "BIND_FEDERATION_ARTIFACT",
+      "ordinal": 0
+    },
+    {
+      "artifact": "primary-ticket.json",
+      "artifact_sha256": "a7b420444e559b12a2f78f606c0af477109307845257cfbd5ea5b9eff71ceb85",
+      "operation": "BIND_FEDERATION_ARTIFACT",
+      "ordinal": 1
+    },
+    {
+      "artifact": "genesis-receipt.json",
+      "artifact_sha256": "984a5da5f84d205c381633ffe1af6a21dfe9454cec9176935f44973a9c14376d",
+      "operation": "BIND_FEDERATION_ARTIFACT",
+      "ordinal": 2
+    }
+  ]
+}
